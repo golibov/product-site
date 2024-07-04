@@ -1,0 +1,159 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: inherit;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+header .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .navbar .nav-logo h2 {
+  color: inherit;
+}
+header .navbar .nav-link .header-list :hover {
+  color: gold;
+}
+header .navbar .nav-link .header-list .header-link {
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+header .nav-link {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+header .nav-link .hom-pages {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+header .nav-link .nav-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .nav-link .nav-button .nav-blog-icon {
+  align-items: center;
+  display: none;
+  font-size: 90px;
+}
+header .nav-link .nav-button button {
+  width: 95px;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #02897A;
+  color: white;
+}
+header .nav-link .nav-button #nav-button {
+  width: 95px;
+  height: 38px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 5px;
+  color: inherit;
+}
+header .header-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .nav-auth {
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.header__shrink {
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+@media (max-width: 992px) {
+  .nav-link .nav-button .nav-blog-icon {
+    display: none;
+  }
+  .nav-link .header-link {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbar .nav-link .nav-button {
+    display: none;
+  }
+  .navbar .nav-link .nav-auth {
+    display: block;
+  }
+}
+footer {
+  width: 85%;
+  height: 40vh;
+  margin: 0px auto;
+  display: flex;
+  gap: 150px;
+}
+footer .link1 {
+  width: 182px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 10px;
+}
+footer .link2 {
+  width: 148px;
+  height: 205px;
+  gap: 10px;
+}
+footer h3 {
+  font-size: 20px;
+  color: inherit;
+}
+footer h5 {
+  font-size: 16px;
+  color: inherit;
+  padding: 10px 0px;
+}
+footer .link4 {
+  width: 320px;
+  height: 199px;
+}
+footer .link4 h2 {
+  color: inherit;
+}
+footer .link4 input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  margin: 15px 0px 15px 0px;
+  border: none;
+  border: 1px solid;
+}
+footer .link4 button {
+  width: 110px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #02897a;
+}
+
+@media (max-width: 994px) {
+  footer {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
